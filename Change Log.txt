@@ -1,0 +1,58 @@
+Version 1
+Core build with sort-of-working board controller script.
+
+Version 2.1 
+Added physics materials and tried to squash any bugs in the board controller script.
+
+Version 2.2
+-Physics have been upgraded
+-Board Controller script makes more sense.... Cleaned up and clearer in its intent.
+-Added textures to ball and board.
+
+Version 2.3
+-Fine tuned all of the game's moving pieces: Board Maximum Angle, Speed, angular drag on all materials, physics, and downward vertical force on the  ball.
+-Sidewalls added, although they need a slightly better configuration.
+-Renamed and commented all scripts.
+-Adjusted the game objects to match their prefabs. Remeber: anytime a new script needs to be added, attach it to the prefab of that object, not the object that's currently in the game feild.
+-Adjusted the textures and mesh layers of ball and board.
+
+Version 3.1 ~PROTOTYPE~
+-Cleaned up for GitHub Upload.
+-Removed old artifacts and solutions left over from previous versions
+-This is now the most current, working solution.
+
+Version 3.2
+-Created new 3d models of a maze board. 
+-Uploaded and testing new maze boards
+-Noteworthy imported resources
+	--maze1.obj	*Level 2	//first upload, total junk. Does give a baseline for future iterationgs
+	--maze2.3.obj	*Level 3	//made modifications to physics, movement settings, and scale. Not perfect, but functioning.
+	--maze3.2.fbx	*Level 4	//.fbx file works a bit better with unity. First iteration with holes. Walls don't show up
+-renamed and compiled all the different versions of models used for testing, converted them to prefabs and organized.
+TODO
+=make holes bigger (15')
+=figure out what's up with the missing walls
+=basically eliminate level 2 (possibly level 3 too)
+=try using mesh colliders on player sphere
+
+Version 3.3 
+-testing different colliders and 3d model types
+-now 4 levels for testing: 
+	level 1 is the oldest map
+	level 3 shows new board, new camera and new player ball. Corrected axis rotation
+	level 4 shows the difference between .dwg, .fbx, .obj, .collida file types of the same 3d model
+-added a new level "model testing ground". Used to determine final changes to board models.
+-imported a nearly finalized board design (level 1 rev 2)
+-Prepared for version 4
+
+Version 4.1 ~ALPHA~
+-All new Scripts, with better names.
+-Created Level 1, and shrunk the model's proportions.
+-Added box colliders on all the side walls, and the floor near those walls. This fix will prevent most "Ball falling through board" errors.
+-Added a player controller script that adds a force to "push" the ball a little bit more. The Board controller script sometimes allows the ball to "spin" in place. This also speeds up game play
+-Added new DEBUG script called "DEBUG_GodKeys.cs". Pressing 0 key sends the ball to the end of the maze; pressing r will reset the position of the player back at the start.
+-Included a build of the game in the root folder called "Maze-A-Ball Demo.exe" (for windows) and "Maze-A-Ball Demo.app" (for osx) which displays all the current features of the game so far.
+-Created the Serial_Handler.cs script that accepts serial data as a packet (pressumably from an arduino) and breaks it apart to store in a public string array.
+Serial_Handler.cs will eventually deliver the values from the Wii Nunchuck to the Board_controller.cs AND Player_controller.cs scripts.
+-Added GUI text to display a timer, and a script to run that timer.
+-Made the lighting a bit more "moody"

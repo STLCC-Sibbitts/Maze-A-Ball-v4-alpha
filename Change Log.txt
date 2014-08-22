@@ -56,3 +56,16 @@ Version 4.1 ~ALPHA~
 Serial_Handler.cs will eventually deliver the values from the Wii Nunchuck to the Board_controller.cs AND Player_controller.cs scripts.
 -Added GUI text to display a timer, and a script to run that timer.
 -Made the lighting a bit more "moody"
+
+Version 4.2 ~ALPHA~
+-Added a few new DEBUG scripts
+-Added level 2 (models part A and part B)
+-new God Keys added
+-Updated prefabs
+-Uploaded Level 2 part a.fbx and Level 2 part b.fbx
+
+TODO
+=upload Level rev 3
+=Level 2 wall colliders
+=better side wall material
+=Add a script to get the Level 2 part a model out of the way when the player reaches the Level 2 part b model

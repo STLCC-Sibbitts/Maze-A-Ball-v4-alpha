@@ -1,0 +1,24 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\Game_Timer.cs">
+    <Files>
+      <File FileName="Assets\Scripts\Player_Controller.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\Player_Controller.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\DEBUG_GodKeys.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\DEBUG_BroadcastNewLevel.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\DEBUG_BroadcastGetInput.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\DEBUG_BroadcastMyPosition.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\DEBUG_DontGoThroughThings.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\Game_Timer.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\Pickup_Rotator.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\Player_Camera.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\Player_OutOfBounds.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\Serial_Handler - BROKEN SCRIPT.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\Board_Controller.cs" Line="1" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
